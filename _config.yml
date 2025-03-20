@@ -1,0 +1,27 @@
+title: ariaf.my.id
+title_path: ariaf.my.id/cv
+url: "https://ariaf.my.id"
+baseurl: "/cv"
+
+markdown: kramdown
+
+tracking_id: 92611710
+remote_theme: heartsker/resume@gem
+
+footer: yes
+footer_url: "https://github.com/heartsker/resume"
+footer_text: "Made with ♥ on Earth, a minimalist Jekyll Theme by heartsker"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+# favicon_location: me.avif
+
+nav:
+ - name: "cv"
+   link: "/cv/"
+ - name: "pdf"
+   link: "resume.pdf"
+ - name: "contacts"
+   link: "contacts"

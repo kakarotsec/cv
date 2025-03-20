@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
+    <meta name="author" content="{{ site.author }}">
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
+    {% if page.description %}
+        {% assign desc = page.description %}
+    {% else %}
+        {% assign desc = site.description %}
+    {% endif %}
+    {% if page.url %}
+        {% assign url = site.url | append: site.baseurl | append: page.url %}
+    {% else %}
+        {% assign url = site.url | append: site.baseurl | append: page.url %}
+    {% endif %}
+    <meta name="description" content="{{ desc }}">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    {% if site.favicon %}
+        <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
+        <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
+    {% endif %}
+    {% if site.twitter_username %}
+        <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
+    {% endif %}
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="{{ desc }}">
+    <meta name="og:title" content="{{ site.title }}">
+    <meta name="og:url" content="{{ url }}">
+    <meta name="og:type" content="article">
+    {% if site.og_image %}
+        <meta name="og:image" content="{{ site.og_image }}">
+    {% endif %}
+    {% if site.facebook_id %}
+        <meta name="fb:admins" content="{{ site.facebook_id }}">
+    {% endif %}
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ desc }}">
+    <meta name="twitter:url" content="{{ url }}">
+    {% if site.twitter_image %}
+        <meta name="twitter:image" content="{{ site.twitter_image }}">
+    {% else %}
+        <meta name="twitter:image" content="{{ site.profile_picture }}">
+    {% endif %}
+</head>
+<body>
+	{% if site.tracking_id %}
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();
+	   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+	   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym("{{ site.tracking_id }}", "init", {
+	        clickmap:true,
+	        trackLinks:true,
+	        accurateTrackBounce:true,
+	        webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/{{ site.tracking_id }}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+	{% endif %}
+	
+    <div class="wrapper">
+        <div class="navbar container">
+            <!-- <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">{{ site.title }}</a> -->
+            {% if site.title_path contains "/" %}
+                {% assign parts = site.title_path | split: "/" %}
+                <a id="author-name" class="alignable pull-left" href="/">{{ parts[0] }}</a>
+                <!-- <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">/{{ parts[1] }}</a> -->
+                <a id="author-name" class="alignable pull-left" href="#">/{{ parts[1] }}</a>
+            {% else %}
+                <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">{{ site.title }}</a>
+            {% endif %}
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                {% for x in site.nav %}
+                    {% if x.name == "Resume" %}
+                        <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
+                    {% else %}
+                        <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
+                    {% endif %}
+                    {% if forloop.last == false %}
+                        /
+                    {% endif %}
+                        </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+        {% if page.is_contact == true %}
+            <div class="container content contact">
+        {% else %}
+            <div class="container content">
+        {% endif %}
+                {{ content }}
+				{% if site.footer == true %}
+					<hr />
+					<p style="text-align: center; margin-bottom: 10px">
+					<a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
+					</p>
+				{% endif %}
+            </div>
+    </div>
+</body>
+<footer>
+</footer>
