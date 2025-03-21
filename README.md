@@ -1,5 +1,13 @@
 # Aria Fatah - CV
 
+<a href="https://jekyll-themes.com/ariafatah0711/cv">
+  <img
+    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
+    height="20"
+    alt="Jekyll Themes Shield"
+  />
+</a>
+
 [![Website](https://img.shields.io/badge/Website-ariaf.my.id-blue)](https://ariaf.my.id/cv)
 
 ## 📌 Tentang
