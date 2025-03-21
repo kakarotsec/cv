@@ -9,8 +9,8 @@ tracking_id: 92611710
 remote_theme: heartsker/resume@gem
 
 footer: yes
-footer_url: "https://github.com/heartsker/resume"
-footer_text: "Made with ♥ on Earth, a minimalist Jekyll Theme by heartsker"
+footer_url: "https://github.com/ariafatah0711/cv"
+footer_text: "Made with ♥ on Earth, a minimalist Jekyll Theme by aria"
 
 sass:
     style: compressed
@@ -22,6 +22,6 @@ nav:
  - name: "cv"
    link: "/cv/"
  - name: "pdf"
-   link: "resume.pdf"
+  #  link: "resume.pdf"
  - name: "contacts"
    link: "contacts"

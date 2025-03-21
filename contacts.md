@@ -7,5 +7,6 @@ is_contact: true
 - [LinkedIn](https://www.linkedin.com/in/ariafatah)  
 - [GitHub Saya](https://github.com/ariafatah0711)  
 - [Instagram](https://instagram.com/ariaf.my.id)  
-- [ariafatah07@gmail.com](mailto:ariafatah07@gmail.com)  
-- [+62 89509221496](tel:+6289509221496)  
+- [calhounsgt07@gmail.com](mailto:calhounsgt07@gmail.com)  
+- [Discord Server](https://s.id/dev-universe)
+- [whatsap](https://wa.me/+6289509221496)

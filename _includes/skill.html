@@ -1,0 +1,8 @@
+{% for skill_category in include.skills %}
+  <h3>{{ skill_category[0] | capitalize }}</h3>
+  <ul>
+    {% for skill in skill_category[1] %}
+      <li><span style="color: #f07;">{{ skill.name }}</span> [{{ skill.level }}] ({{ skill.description | capitalize }})</li>
+    {% endfor %}
+  </ul>
+{% endfor %}

@@ -1,0 +1,18 @@
+<ul class="experience-list">
+    {% for exp in include.experiences %}
+      <li>
+        <strong>
+          {{ exp.title }}
+        </strong> - 
+        {% if exp.link %}
+          <a href="{{ exp.link }}" target="_blank"><em>{{ exp.company }}</em></a>
+        {% else %}
+          <em>{{ exp.company }}</em>
+        {% endif %}
+        <br>
+        <small>{{ exp.duration }} | {{ exp.location }}</small>
+        <br>
+        <p>{{ exp.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>

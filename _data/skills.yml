@@ -1,0 +1,97 @@
+# Level	Simbol	Keterangan
+# L1	■□□□□	Novice (Baru belajar)
+# L2	■■□□□	Beginner (Dasar, pemahaman awal)
+# L3	■■■□□	Intermediate (Cukup paham, bisa praktik)
+# L4	■■■■□	Advanced (Mahir, bisa membangun proyek nyata)
+# L5	■■■■■	Expert (Sangat mahir, pengalaman luas)
+
+# networking:
+#   - name: Cisco
+#     level: "■■■□□"
+#     description: Intermediate
+#   - name: MikroTik
+#     level: "■■■■□"
+#     description: Advanced
+
+networking:
+  - name: Cisco
+    level: "■■■□□"
+    description: Intermediate
+  - name: MikroTik
+    level: "■■■■□"
+    description: Advanced
+
+frontend web:
+  - name: HTML, CSS
+    level: "■■■■■"
+    description: Expert
+  - name: JavaScript
+    level: "■■■■□"
+    description: Advanced
+  - name: Node.js
+    level: "■■■□□"
+    description: Intermediate
+  - name: PHP
+    level: "■□□□□"
+    description: Novice
+
+devops:
+  - name: Docker, Podman
+    level: "■■■■■"
+    description: Expert
+  - name: Kubernetes
+    level: "■□□□□"
+    description: Novice
+  - name: Jenkins
+    level: "■□□□□"
+    description: Novice
+  - name: Prometheus, Grafana
+    level: "■□□□□"
+    description: Novice
+  - name: AWS
+    level: "■■□□□"
+    description: Beginner
+
+backend web:
+  - name: Node.js
+    level: "■■□□□"
+    description: Beginner
+
+cybersecurity:
+  - name: Network Security
+    level: "■■■□□"
+    description: Intermediate
+  - name: Web Security
+    level: "■■□□□"
+    description: Beginner
+  - name: Cryptography
+    level: "■□□□□"
+    description: Novice
+
+programming:
+  - name: Python
+    level: "■■■■□"
+    description: Advanced
+  - name: C, C++
+    level: "■□□□□"
+    description: Novice
+  - name: Bash
+    level: "■■■□□"
+    description: Intermediate
+
+tools:
+  - name: Git
+    level: "■■■■■"
+    description: Expert
+  - name: Cisco Packet Tracert
+    level: "■■□□□"
+    description: Beginner
+  - name: Pnet Lab
+    level: "■■■□□"
+    description: Intermediate
+  - name: Jekyll, Docusaurus
+    level: "■■■□□"
+    description: Intermediate
+  - name: Ansible
+    level: "■■□□□"
+    description: Beginner

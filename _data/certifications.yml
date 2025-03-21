@@ -1,0 +1,59 @@
+certs:
+  - name: MTCNA
+    path: cert/mtcna.pdf
+    year: "2024 - 2027"
+
+  - name: MTCRE
+    path: cert/mtcre.pdf
+    year: "2024 - 2027"
+
+  - name: MTCTCE
+    path: cert/mtctce.pdf
+    year: "2024 - 2027"
+
+  - name: IDCamp Front-End Developer Mahir
+    path: cert/FE - IDCamp Mahir-14.pdf
+    year: "2023"
+    subcerts:
+      - name: Belajar Dasar Pemrograman Web
+        path: cert/dicoding/fe1_Belajar%20Dasar%20Pemrograman%20Web.pdf
+        year: "2024 - 2027"
+
+      - name: Belajar Dasar Pemrograman JavaScript
+        path: cert/dicoding/fe2_Belajar%20Dasar%20Pemrograman%20JavaScript.pdf
+        year: "2024 - 2027"
+
+      - name: Belajar Membuat Front-End Web untuk Pemula
+        path: cert/dicoding/fe3_Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula.pdf
+        year: "2024 - 2027"
+
+      - name: Belajar Fundamental Front-End Web Development
+        path: cert/dicoding/fe4_Belajar%20Fundamental%20Front-End%20Web%20Development.pdf
+        year: "2024 - 2027"
+
+      - name: Belajar Pengembangan Web Intermediate
+        path: cert/dicoding/fe5_Belajar%20Pengembangan%20Web%20Intermediate.pdf
+        year: "2024 - 2027"
+
+  - name: IDCamp DevOps Engineer Menengah
+    path: cert/DO - IDCamp menengah.pdf
+    year: "2024"
+    subcerts:
+      - name: Belajar Dasar-Dasar DevOps
+        path: cert/dicoding/do1_Belajar%20Dasar-Dasar%20DevOps.pdf
+        year: "2024 - 2027"
+
+      - name: Belajar Jaringan Komputer untuk Pemula
+        path: cert/dicoding/do2_Belajar%20Jaringan%20Komputer%20untuk%20Pemula.pdf
+        year: "2024 - 2027"
+
+      - name: Menjadi Linux System Administrator
+        path: cert/dicoding/do3_Menjadi%20Linux%20System%20Administrator.pdf
+        year: "2025 - 2028"
+
+      - name: Belajar Implementasi CI/CD
+        path: cert/dicoding/do4_Belajar%20Implementasi%20CI_CD.pdf
+        year: "2025 - 2028"
+
+  - name: More
+    path: https://www.linkedin.com/in/ariafatah/details/certifications/
