@@ -145,7 +145,7 @@ playwright pdf http://localhost:4000/cv/pdf.html resume.pdf
 #### 🔹 **Setelah Deploy (Direkomendasikan)**
 > Pastikan website sudah online sebelum menjalankan perintah ini.
 ```bash
-playwright pdf http://ariaf.my.id/cv/pdf.html resume.pdf
+playwright pdf https://ariaf.my.id/cv/pdf.html resume.pdf
 ```
 
 ## 📄 Lisensi
