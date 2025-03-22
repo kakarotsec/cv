@@ -1,0 +1,101 @@
+<style>
+    /* Modal Styling */
+    .modal {
+      display: none; /* Default: hidden */
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      align-items: center; 
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+  
+    /* Modal Content */
+    .modal-content {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 800px;
+      position: relative;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+  
+    /* Tombol Close (X) */
+    .modal-close {
+      position: absolute;
+      top: -15px;
+      right: -15px;
+      font-size: 25px;
+      color: white;
+      background: black;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+  
+    .modal-close:hover {
+      background: red;
+    }
+  
+    /* PDF Viewer */
+    .modal iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+
+    /* Responsive Modal */
+    @media screen and (max-width: 600px) {
+        .modal-content {
+            width: 90%;
+            max-width: 100%;
+            padding: 10px;
+        }
+
+        .modal iframe {
+            height: 300px; /* Lebih kecil di HP */
+        }
+
+        .modal-close {
+            top: -10px;
+            right: -10px;
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+        }
+    }
+  </style>
+
+  <div class="cert-list">
+    <ul>
+      {% for cert in include.certs %}
+        <li>
+          <a href="{{ cert.path }}" target="_blank">{{ cert.name }}</a>
+          <span> {{ cert.year }}</span>
+  
+          {% if cert.subcerts %}
+            <ul>
+              {% for sub in cert.subcerts %}
+                <li>
+                  <a href="{{ sub.path }}" target="_blank">{{ sub.name }}</a>
+                  <span> {{ sub.year }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
