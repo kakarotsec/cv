@@ -80,10 +80,10 @@
             {% if site.title_path contains "/" %}
                 {% assign parts = site.title_path | split: "/" %}
                 <a id="author-name" class="alignable pull-left" href="/">{{ parts[0] }}</a>
-                <!-- <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">/{{ parts[1] }}</a> -->
-                <a id="author-name" class="alignable pull-left hidden_500px" href="#">/{{ parts[1] }}</a>
+                <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}/">/{{ parts[1] }}</a>
+                <!-- <a id="author-name" class="alignable pull-left hidden_500px" href="#">/{{ parts[1] }}</a> -->
             {% else %}
-                <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">{{ site.title }}</a>
+                <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}/">{{ site.title }}</a>
             {% endif %}
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}

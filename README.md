@@ -13,6 +13,8 @@
 ## 📌 Tentang
 Repositori ini berisi CV yang dibuat menggunakan Jekyll. Template awal berasal dari [heartsker/resume](https://github.com/heartsker/resume) dan telah dimodifikasi sesuai kebutuhan.
 
+<img src="./preview.png">
+
 ## 🚀 Menjalankan Secara Lokal
 Pastikan Jekyll sudah terinstal di sistem. Jika belum, bisa mengikuti panduan instalasi di [Jekyll Docs](https://jekyllrb.com/docs/installation/).
 
