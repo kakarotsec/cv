@@ -5,93 +5,58 @@
 # L4	■■■■□	Advanced (Mahir, bisa membangun proyek nyata)
 # L5	■■■■■	Expert (Sangat mahir, pengalaman luas)
 
-# networking:
-#   - name: Cisco
-#     level: "■■■□□"
-#     description: Intermediate
-#   - name: MikroTik
-#     level: "■■■■□"
-#     description: Advanced
-
 networking:
-  - name: Cisco
-    level: "■■■□□"
-    description: Intermediate
   - name: MikroTik
-    level: "■■■■□"
-    description: Advanced
-
-frontend web:
-  - name: HTML, CSS
-    level: "■■■■■"
-    description: Expert
-  - name: JavaScript
-    level: "■■■■□"
-    description: Advanced
-  - name: Node.js
-    level: "■■■□□"
-    description: Intermediate
-  - name: PHP
-    level: "■□□□□"
-    description: Novice
+  - name: Cisco
+  - name: Routing
+  - name: Firewall
+  - name: QoS (Quality of Service)
 
 devops:
-  - name: Docker, Podman
-    level: "■■■■■"
-    description: Expert
-  - name: Kubernetes
-    level: "■□□□□"
-    description: Novice
-  - name: Jenkins
-    level: "■□□□□"
-    description: Novice
-  - name: Prometheus, Grafana
-    level: "■□□□□"
-    description: Novice
-  - name: AWS
-    level: "■■□□□"
-    description: Beginner
+  - name: CI/CD Tools
+    description: GitHub Actions, Jenkins, CircleCI
+  - name: Containerization
+    description: Docker, Podman
+  - name: Container Orchestration
+    description: Kubernetes, Docker Swarm, Docker Compose
+  - name: Monitoring Tools
+    description: Prometheus, Grafana
+  - name: Cloud Provider
+    description: AWS
 
-backend web:
-  - name: Node.js
-    level: "■■□□□"
-    description: Beginner
+web development:
+  - name: Web Fundamentals
+    description: HTML, CSS, JavaScript
+  - name: CSS Frameworks
+    description: Tailwind, Bootstrap
+  - name: JavaScript Backend
+    description: Node.js
+  - name: Frontend Frameworks
+    description: React, Vue
+  - name: Fullstack Framework
+    description: Next.js
+  - name: Web Backend
+    description: PHP
+
+tools:
+  - name: Version Control
+    description: Git
+  - name: Package Manager
+    description: NPM
+  - name: Linux Distros
+    description: RHEL, CentOS, Ubuntu, Arch
+  - name: Automation Tools
+    description: Ansible, Helm
+  - name: Network Simulation
+    description: Packet Tracer, PNET Lab
+  - name: Deployment
+    description: Vercel, Firebase, Supabase
 
 cybersecurity:
   - name: Network Security
-    level: "■■■□□"
-    description: Intermediate
   - name: Web Security
-    level: "■■□□□"
-    description: Beginner
-  - name: Cryptography
-    level: "■□□□□"
-    description: Novice
 
 programming:
   - name: Python
-    level: "■■■■□"
-    description: Advanced
-  - name: C, C++
-    level: "■□□□□"
-    description: Novice
-  - name: Bash
-    level: "■■■□□"
-    description: Intermediate
-
-tools:
-  - name: Git
-    level: "■■■■■"
-    description: Expert
-  - name: Cisco Packet Tracert
-    level: "■■□□□"
-    description: Beginner
-  - name: Pnet Lab
-    level: "■■■□□"
-    description: Intermediate
-  - name: Jekyll, Docusaurus
-    level: "■■■□□"
-    description: Intermediate
-  - name: Ansible
-    level: "■■□□□"
-    description: Beginner
+  - name: Bash Scripting
+  - name: C Programming
