@@ -9,8 +9,8 @@ tracking_id: 92611710
 remote_theme: heartsker/resume@gem
 
 footer: yes
-footer_url: "https://github.com/ariafatah0711/cv"
-footer_text: "Made with ♥ on Earth, a minimalist Jekyll Theme by aria"
+footer_url: "https://github.com/kakarotsec/cv"
+footer_text: "Made with ♥ on Earth, a minimalist Jekyll Theme by rifat"
 
 sass:
     style: compressed
