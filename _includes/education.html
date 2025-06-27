@@ -1,0 +1,43 @@
+<style>
+    .education-list li {
+        margin-bottom: 15px !important;
+    }
+
+    .education-list li > * {
+        display: block;
+        margin-bottom: 5px;
+    }
+</style>
+
+<ul class="education-list">
+  {% for edu in include.educations %}
+    <li>
+      <em>
+        {% if edu.link %}
+          <a href="{{ edu.link }}" target="_blank">{{ edu.school }}</a>
+        {% else %}
+          {{ edu.school }}
+        {% endif %}
+      </em>
+
+      {% if edu.major_link %}
+        <strong><a style="text-decoration: none; color: inherit;" href="{{ edu.major_link }}" target="_blank">{{ edu.major }}</a></strong>
+      {% else %}
+        <strong>{{ edu.major }}</strong>
+      {% endif %}
+
+      <span>
+        <strong>{{ edu.degree }}</strong>
+        <small>{{ edu.duration }}</small>
+      </span>
+
+      {% if edu.ipk %}
+        <span><strong>IPK:</strong> {{ edu.ipk }}</span>
+      {% endif %}
+
+      {% if edu.mobilitas %}
+        <span><strong></strong> {{ edu.mobilitas }}</span>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
