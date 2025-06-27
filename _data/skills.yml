@@ -1,0 +1,79 @@
+
+devops:
+  - name: CI/CD Tools
+    description: GitHub Actions, Jenkins, CircleCI
+  - name: Containerization
+    description: Docker, Podman
+  - name: Container Orchestration
+    description: Kubernetes, Docker Swarm, Docker Compose
+  - name: Monitoring Tools
+    description: Prometheus, Grafana
+  - name: "Cloud Platforms"
+    description: "AWS (EC2, S3, IAM)"
+    level: "★★★☆☆"
+     
+
+general it skills:
+  - name: "Technical Support & Troubleshooting"
+    description: "Help desk support, diagnosing hardware/software/network issues"
+    level: "★★★★☆"
+  - name: "Operating Systems"
+    description: "Windows (10/11, Server), Linux (Ubuntu, CentOS)"
+    level: "★★★★☆"
+  - name: "Networking Fundamentals"
+    description: "Basic understanding of TCP/IP, DNS, DHCP, VPN, routing/switching"
+    level: "★★★☆☆"
+  - name: "Remote Support Tools"
+    description: "Experience with TeamViewer, AnyDesk, RDP, LogMeIn"
+    level: "★★★☆☆"
+            
+cybersecurity:
+  - name: "Network & Web Security"
+    level: "★★★★☆"
+  - name: "Web Penetration Testing"
+    description: "Includes custom-built apps, CMS (WordPress, Joomla)"
+    level: "★★★☆☆"
+  - name: "Mobile App Penetration Testing"
+    description: "Android/iOS (native & hybrid apps)"
+    level: "★★★☆☆"
+
+Development tools:
+  - name: Version Control
+    description: Git
+  - name: Package Manager
+    description: NPM
+  - name: Automation Tools
+    description: Ansible, Helm
+  - name: Deployment
+    description: Vercel, Firebase, Supabase
+    
+networking:
+  - name: "MikroTik"
+    level: "★★★★☆"
+  - name: "Cisco"
+    level: "★★★★☆"
+  - name: "Routing & Switching"
+    level: "★★★★☆"
+  - name: "Firewall Configuration"
+    level: "★★★★☆"
+  - name: "QoS (Quality of Service)"
+    level: "★★★☆☆"
+  - name: "Network Simulation"
+    description: "Packet Tracer, PNET Lab"
+    level: "★★★☆☆"
+
+programming:
+  - name: "Python"
+    level: "★★★★☆"
+  - name: "Bash Scripting"
+    level: "★★★☆☆"
+  - name: "C Programming"
+    level: "★★☆☆☆"
+  - name: "JavaScript (Node.js, Frontend)"
+    level: "★★★☆☆"
+  - name: "Flutter"
+    description: "Mobile App Dev - Android/iOS"
+    level: "★★★☆☆"
+
+
+

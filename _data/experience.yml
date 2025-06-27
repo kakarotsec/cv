@@ -1,0 +1,52 @@
+experiences:
+  - title: Cyber Security Analyst 
+    company: Tata Group
+    link: https://www.linkedin.com/company/tata-group/
+    duration: "August 2024 (1 month)"
+    location: Remote
+    description: |
+      Completed a virtual experience simulating the role of a Cyber Security Analyst. Responsibilities included threat modeling, log analysis, and incident reporting. Gained practical exposure to real-world SOC workflows and cybersecurity tools used in professional environments.
+      
+  - title: Software Engineering Intern 
+    company: Telstra
+    link: https://www.telstra.com.au/
+    duration: "January 2025 (1 month)"
+    location: "Remote"
+    description: |
+      Completed a virtual internship simulating software engineering tasks in a telecommunications environment. Worked on developing and testing scalable applications, improving CI/CD pipelines, and collaborating on Agile-based projects. Gained practical experience in automation, cloud technologies, and software delivery best practices.
+
+  - title: Solutions Architecture 
+    company: Amazon Web Services (AWS)
+    link: "https://aws.amazon.com/"
+    duration: "January 2025 (1 month)"
+    location: "Remote"
+    description: |
+      Completed a virtual internship focused on AWS Solutions Architecture. Gained practical experience designing scalable, secure, and cost-effective cloud solutions using AWS services such as EC2, S3, VPC, Lambda, and CloudFormation. Developed knowledge of best practices in cloud infrastructure, deployment automation, and security.
+
+  - title: UX Design Advanced
+    company: Lloyds Banking Group
+    link: "https://www.lloydsbankinggroup.com/"
+    duration: "January 2025 (1 month)"
+    location: "Remote"
+    description: |
+      Completed the UX Design Advanced program focusing on user research, interaction design, and usability testing within financial services. Gained hands-on experience creating user personas, wireframes, and prototypes, applying best practices in user-centered design to enhance digital product experiences.
+
+  - title: Automation 
+    company: Datacom
+    link: "https://www.datacomgroup.net/"
+    duration: "January 2025 (1 month)"
+    location: "Remote"
+    description: |
+      Completed an Automation program focused on designing and implementing automated workflows and scripts to improve operational efficiency. Gained practical experience with tools and technologies used in IT automation and DevOps environments, enhancing skills in process optimization and scripting.
+
+
+  # - title: IT Support
+  #   company: PT Jarvis Integrasi Solusi
+  #   link: https://www.linkedin.com/company/jarvis-integrasi-solusi/
+  #   duration: Juli 2024 - Agustus 2024 (2 bulan)
+  #   location: JRP4+H38, Tanah Baru, Kecamatan Beji, Kota Depok, Jawa Barat 16426
+  #   description: |
+  #     Saat PKL di PT Jarvis, saya membantu tim IT dalam troubleshooting, instalasi sistem, dukungan pengguna, dan pemeliharaan jaringan, meningkatkan keterampilan problem-solving serta pemahaman peran IT Support.
+  
+  
+  

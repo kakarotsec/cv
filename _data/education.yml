@@ -1,0 +1,8 @@
+educations:
+  - school: "Stamford University"
+    link: "https://www.stamforduniversity.edu.bd/"
+    degree: "Student"
+    duration: "2022 - 2025"
+    major: "B.Sc. in Computer Science (Incomplete)"
+    mobilitas: "<strong>Relevant Coursework:</strong> Programming, Data Structures, Computer Networks, Cybersecurity."
+

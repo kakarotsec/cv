@@ -1,0 +1,21 @@
+  - name: "Nokia Responsible Disclosure"
+    url: "https://www.nokia.com/notices/responsible-disclosure/"
+    date: "2022"
+    rank: "Listed"
+
+  - name: "NVIDIA Security Acknowledgements"
+    url: "https://www.nvidia.com/en-us/security/acknowledgements/"
+    date: "2023"
+    rank: "Listed"
+
+  - name: "University of Texas Hall of Fame"
+    url: "https://security.utexas.edu/hall-of-fame"
+    date: "2022"
+    rank: "Listed"
+
+  - name: "University of Twente Responsible Disclosure Hall of Fame"
+    url: "https://www.utwente.nl/en/cyber-safety/responsible/hall-of-fame/"
+    date: "2022"
+    rank: "Listed"
+
+
