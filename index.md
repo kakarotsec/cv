@@ -4,7 +4,7 @@ layout: default
 
 ## 👋 About Me
 
-<img class="profile-picture" src="me1.png">
+<img class="profile-picture" src="me.png">
 
 **Rifat Al Jubayer**, Cybersecurity Researcher
 
